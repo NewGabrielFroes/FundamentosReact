@@ -1,5 +1,5 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
+import Frase from './components/Frase';
 import Pessoa from './components/Pessoa';
 import SayMyName from './components/SayMyName';
 
@@ -9,7 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <HelloWorld />
+      <h1>Testando CSS</h1>
+      <Frase />
+      <Frase />
       <SayMyName nome="Gabriel" />
       <SayMyName nome="João" />
       <SayMyName nome={nome} />
